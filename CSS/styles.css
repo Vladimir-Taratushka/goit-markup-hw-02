@@ -1,0 +1,12 @@
+ul {
+  list-style: none;
+}
+.nav-links a,
+.nav-contacts a {
+  color: #212121;
+}
+
+.nav-contacts :hover,
+.nav-links :hover {
+  color: #2196f3;
+}
