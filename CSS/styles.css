@@ -10,3 +10,19 @@ ul {
 .nav-links :hover {
   color: #2196f3;
 }
+a {
+  text-decoration: none;
+}
+
+.efective-solution {
+  text-align: center;
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.order-service {
+  background-color: #2196f3;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+}
