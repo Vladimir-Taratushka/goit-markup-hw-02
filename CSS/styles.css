@@ -7,9 +7,11 @@ ul {
 }
 .nav-links a {
   color: #212121;
+  font-size: 14px;
 }
 .nav-contacts a {
   color: #757575;
+  font-size: 14px;
 }
 
 .nav-contacts :hover,
@@ -36,6 +38,8 @@ a {
   width: 200px;
   height: 50px;
   border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
 }
 /*Чем мы занимаемся*/
 .studio-images img {
@@ -55,6 +59,9 @@ a {
   font-size: 14px;
 }
 /* Наша команда*/
+.our-team {
+  background-color: #f5f4fa;
+}
 .head2 {
   text-align: center;
   font-size: 36px;
@@ -68,6 +75,7 @@ a {
   height: 368px;
   text-align: center;
   font-size: 16px;
+  background-color: #ffffff;
 }
 .team-photo p {
   text-align: center;
