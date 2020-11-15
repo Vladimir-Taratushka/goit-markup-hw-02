@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>homework-02 </title>
     <link rel="stylesheet" href="./CSS/styles.css">
-    <link @import "http://fonts.fontstorage.com/import/roboto.css";>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,900;1,400;1,700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -26,43 +28,43 @@
     </header>
     <main>
         <section class="efective-solution">
-            <h1 >Эфективные решения <br> для вашего бизнеса</h1>
+            <h1>Эфективные решения <br> для вашего бизнеса</h1>
             <button class="order-service">Заказать услугу</button>
         </section>
         <div>
-            <ul>
+            <ul class="dignities">
                 <li>
-                    <p><b>Внимание к деталям</b></p>
+                    <span><b>Внимание к деталям</b></span>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
                 <li>
-                    <p><b>Пунктуальность</b></p>
+                    <span><b>Пунктуальность</b></span>
                     <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
                 <li>
-                    <p><b>Планирование</b></p>
+                    <span><b>Планирование</b></span>
                     <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
                 <li>
-                    <p><b>Современные технологии</b></p>
+                    <span><b>Современные технологии</b></span>
                     <p> Значимость этих проблем настолько очевидна, что реализация плановых заданий. </p>
                 </li>
             </ul>
         </div>
         <section>
             <!--Our work-->
-            <h2 id="studio">Чем мы занимаемся </h2>
-            <ul>
-                <li><img src="./images/png/box1.png" alt="набор на клавиатуре"></li>
-                <li><img src="./images/png/box2.png" alt="телефон и Macbook"></li>
-                <li><img src="./images/png/box3.png" alt="Ipad"></li>
+            <h2 id="studio" class="head2">Чем мы занимаемся </h2>
+            <ul class="studio-images">
+                <li class="box1"><img src="./images/png/box1.png" alt="набор на клавиатуре"></li>
+                <li class="box2"><img src="./images/png/box2.png" alt="телефон и Macbook"></li>
+                <li class="box3"><img src="./images/png/box3.png" alt="Ipad"></li>
             </ul>
         </section>
         <!--Our team-->
          <section>
            
-            <h2 id="portfolio">Наша команда</h2>
-            <ul>
+            <h2 id="portfolio" class="head2">Наша команда</h2>
+            <ul class="team-photo">
                 <li><img src="./images/jpeg/img.jpg" alt="Игорь Демьяненко">Игорь Демьяненко<p>Product Designer</p>
                 </li>
                 <li><img src="./images/jpeg/img(1).jpg" alt="Ольга Репина">Ольга Репина <p>Frontend Developer</p>
@@ -76,43 +78,41 @@
         <!--Searching-->
         <div>
             <ul>
-                <li><button>
-                    <a href="#All">Все</a></button>
+                <li>
+                    <button>Все</button>
                     
                 </li>
-                <li><button>
-                    <a href="#Websites">Веб-сайты</a></button>
+                <li>
+                   <button>Веб-сайты</button>
                     
                 </li>
-                <li><button>
-                    <a href="#Apps">Приложения</a></button>
+                <li>
+                    <button>Приложения</button>
                     
                 </li>
-                <li><button>
-                    <a href="#Disigne">Дизайн</a> </button>
+                <li>
+                    <button>Дизайн</button>
                    
                 </li>
-                <li><button>
-                    <a href="#Marceting">Маркетинг</a> </button>
+                <li>
+                    <button>Маркетинг</button>
                 </li>
             </ul>
         </div>
-        <section>
             <ul>
-                <li id="Websites" id="All"><img src="./images2/img.jpg" alt="Macbook">Технокряк <p>Веб-сайт</p></li>
-                <li id="Disigne"id="All"><img src="./images2/img (1).jpg" alt="Bascetball-stars">Постер New Orlean vs Golden Star <p>Дизайн</p></li>
-                <li id="Apps"id="All"><img src="./images2/img (2).jpg" alt="Restorant-logo">Ресторан Seafood <p>Приложение</p></li>
-                <li id="Marceting"id="All"><img src="./images2/img (3).jpg" alt="Headset">Проект Prime <p>Маркетинг</p></li>  
-                <li id="Apps"id="All"><img src="./images2/img (4).jpg" alt="two-boxes">Проект Boxes <p>Приложение</p></li>
-                <li id="Websites"id="All"><img src="./images2/img (5).jpg" alt="Display">Inspiration has no Borders <p>Веб-сайт</p></li>
-                <li id="Disigne"id="All"><img src="./images2/img (6).jpg" alt="Open-book">Издание Limited Edition <p>Дизайн</p></li>
-                <li id="Marceting"id="All"><img src="./images2/img (7).jpg" alt="LabTag">Проект LAB <p>Маркетинг</p></li>
-                <li id="Apps"id="All"><img src="./images2/img (8).jpg" alt="Typing-on-Mcdooc">Growing Business <p>Приложение</p></li>
+                <li> <img src="./images2/img.jpg" alt="Macbook">Технокряк <p>Веб-сайт</p></li>
+                <li ><img src="./images2/img(1).jpg" alt="Bascetball-stars">Постер New Orlean vs Golden Star <p>Дизайн</p></li>
+                <li ><img src="./images2/img(2).jpg" alt="Restorant-logo">Ресторан Seafood <p>Приложение</p></li>
+                <li ><img src="./images2/img(3).jpg" alt="Headset">Проект Prime <p>Маркетинг</p></li>  
+                <li ><img src="./images2/img(4).jpg" alt="two-boxes">Проект Boxes <p>Приложение</p></li>
+                <li ><img src="./images2/img(5).jpg" alt="Display">Inspiration has no Borders <p>Веб-сайт</p></li>
+                <li ><img src="./images2/img(6).jpg" alt="Open-book">Издание Limited Edition <p>Дизайн</p></li>
+                <li ><img src="./images2/img(7).jpg" alt="LabTag">Проект LAB <p>Маркетинг</p></li>
+                <li ><img src="./images2/img(8).jpg" alt="Typing-on-Mcdooc">Growing Business <p>Приложение</p></li>
                 
                 
                 
             </ul>
-        </section>
     </main>
     <footer>
         <img src="images/WebStudio.png" alt="logo">

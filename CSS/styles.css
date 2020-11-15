@@ -1,9 +1,15 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 ul {
   list-style: none;
 }
-.nav-links a,
-.nav-contacts a {
+.nav-links a {
   color: #212121;
+}
+.nav-contacts a {
+  color: #757575;
 }
 
 .nav-contacts :hover,
@@ -13,11 +19,16 @@ ul {
 a {
   text-decoration: none;
 }
-
+/*Эфективные решения и кнопка заказать услугу*/
 .efective-solution {
   text-align: center;
   background-color: #2f303a;
   color: #ffffff;
+  height: 539px;
+}
+.efective-solution > h1 {
+  font-size: 44px;
+  font-weight: 900;
 }
 .order-service {
   background-color: #2196f3;
@@ -25,4 +36,44 @@ a {
   width: 200px;
   height: 50px;
   border-radius: 4px;
+}
+/*Чем мы занимаемся*/
+.studio-images img {
+  width: 370px;
+  height: 294px;
+}
+.dignities p {
+  text-align: left;
+  width: 270px;
+  color: #757575;
+  line-height: 1.7;
+  font-size: 14;
+}
+.dignities span {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+/* Наша команда*/
+.head2 {
+  text-align: center;
+  font-size: 36px;
+}
+.team-photo img {
+  width: 270px;
+  height: 260px;
+}
+.team-photo > li {
+  width: 270px;
+  height: 368px;
+  text-align: center;
+  font-size: 16px;
+}
+.team-photo p {
+  text-align: center;
+  width: 270px;
+  color: #757575;
+  line-height: 1.7;
+  font-size: 14px;
+  font-weight: 500;
 }
