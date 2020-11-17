@@ -106,7 +106,7 @@ a {
 .b-all {
   width: 73px;
   height: 38px;
-  color: #000000;
+  color: #212121;
   border-radius: 4px;
   font-size: 16px;
   font-weight: 500;
@@ -116,7 +116,7 @@ a {
 .b-web {
   width: 128px;
   height: 38px;
-  color: #000000;
+  color: #212121;
   border-radius: 4px;
   font-size: 16px;
   font-weight: 500;
@@ -126,7 +126,7 @@ a {
 .b-app {
   width: 145px;
   height: 38px;
-  color: #000000;
+  color: #212121;
   border-radius: 4px;
   font-size: 16px;
   font-weight: 500;
@@ -136,7 +136,7 @@ a {
 .b-disigne {
   width: 103px;
   height: 38px;
-  color: #000000;
+  color: #212121;
   border-radius: 4px;
   font-size: 16px;
   font-weight: 500;
@@ -146,7 +146,7 @@ a {
 .b-mark {
   width: 130px;
   height: 38px;
-  color: #000000;
+  color: #212121;
   border-radius: 4px;
   font-size: 16px;
   font-weight: 500;
@@ -158,4 +158,25 @@ a {
 div li :hover {
   background-color: #2196f3;
   color: #ffffff;
+}
+/*potfolio photo*/
+.portfolio-photo img {
+  width: 370px;
+  height: 294px;
+}
+.portfolio-photo li {
+  width: 370px;
+  height: 404px;
+  text-align: left;
+  font-size: 16px;
+  background-color: #ffffff;
+  border-style: 1px;
+}
+.portfolio-photo p {
+  text-align: left;
+  width: 270px;
+  color: #757575;
+  line-height: 1.7;
+  font-size: 14px;
+  font-weight: 500;
 }
