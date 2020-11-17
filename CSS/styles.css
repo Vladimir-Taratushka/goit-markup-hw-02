@@ -111,6 +111,7 @@ a {
   font-size: 16px;
   font-weight: 500;
   background-color: #f5f4fa;
+  border: #ffffff;
 }
 .b-web {
   width: 128px;
@@ -120,6 +121,7 @@ a {
   font-size: 16px;
   font-weight: 500;
   background-color: #f5f4fa;
+  border: #ffffff;
 }
 .b-app {
   width: 145px;
@@ -129,6 +131,7 @@ a {
   font-size: 16px;
   font-weight: 500;
   background-color: #f5f4fa;
+  border: #ffffff;
 }
 .b-disigne {
   width: 103px;
@@ -138,6 +141,7 @@ a {
   font-size: 16px;
   font-weight: 500;
   background-color: #f5f4fa;
+  border: #ffffff;
 }
 .b-mark {
   width: 130px;
@@ -147,71 +151,11 @@ a {
   font-size: 16px;
   font-weight: 500;
   background-color: #f5f4fa;
+  border: #ffffff;
 }
 /*эффект Ховер на кнопки*/
-.b-all :hover {
-  width: 73px;
-  height: 38px;
-  color: #ffffff;
-  border-radius: 4px;
-  font-size: 16px;
-  font-weight: 500;
+
+div li :hover {
   background-color: #2196f3;
-}
-.b-web :hover {
-  width: 128px;
-  height: 38px;
   color: #ffffff;
-  border-radius: 4px;
-  font-size: 16px;
-  font-weight: 500;
-  background-color: #2196f3;
-}
-.b-app :hover {
-  width: 145px;
-  height: 38px;
-  color: #ffffff;
-  border-radius: 4px;
-  font-size: 16px;
-  font-weight: 500;
-  background-color: #2196f3;
-}
-.b-disigne :hover {
-  width: 103px;
-  height: 38px;
-  color: #ffffff;
-  border-radius: 4px;
-  font-size: 16px;
-  font-weight: 500;
-  background-color: #2196f3;
-}
-.b-mark :hover {
-  width: 130px;
-  height: 38px;
-  color: #ffffff;
-  border-radius: 4px;
-  font-size: 16px;
-  font-weight: 500;
-  background-color: #2196f3;
-}
-/*фото портфолио*/
-.portfolio-photo img {
-  width: 370px;
-  height: 294px;
-}
-.portfolio-photo > li {
-  width: 370px;
-  height: 404px;
-  text-align: left;
-  font-size: 16px;
-  background-color: #ffffff;
-  border-style: 1px;
-}
-.portfolio-photo p {
-  text-align: left;
-  width: 270px;
-  color: #757575;
-  line-height: 1.7;
-  font-size: 14px;
-  font-weight: 500;
 }
